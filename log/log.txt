@@ -1,0 +1,21 @@
+21:43:38.540 [main] INFO  com.epam.library.Main main - hello world
+00:01:41.272 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: 1
+00:02:14.946 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+00:02:24.875 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: not_so_clever_empl
+01:16:00.463 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: show_cleverest_empl
+01:16:20.015 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+01:17:20.810 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+01:17:42.625 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: not_so_clever_empl
+01:17:45.053 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: 1
+01:19:54.914 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+01:27:28.389 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+01:27:59.347 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: not_so_clever_empl
+01:37:53.940 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: cleverest_empl
+01:38:07.709 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: not_so_clever_empl
+01:38:20.968 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: cleverest_empl:
+01:41:54.808 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: 1
+01:41:54.818 [main] ERROR com.epam.library.controller.Controller service - java.lang.IllegalArgumentException: No enum constant com.epam.library.utilty.command.definer.CommandType.1
+01:42:55.582 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: 1
+01:42:55.591 [main] ERROR com.epam.library.controller.Controller service - java.lang.IllegalArgumentException: No enum constant com.epam.library.utilty.command.definer.CommandType.1
+01:43:16.131 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: not_so_clever_empl
+01:43:23.470 [main] INFO  com.epam.library.utilty.command.definer.CommandDefiner define - Command: cleverest_empl
