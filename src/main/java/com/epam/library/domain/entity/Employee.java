@@ -1,6 +1,6 @@
 package com.epam.library.domain.entity;
 
-import com.epam.library.domain.entity.AbstractEntity;
+import java.util.Date;
 
 /**
  * Created by User on 14.03.2017.
@@ -9,16 +9,16 @@ public class Employee extends AbstractEntity<Integer> {
 
     private String name;
     private String email;
-    private Integer dateOfBirth;
+    private Date dateOfBirth;
 
-    public Employee(Integer id, String name, String email, Integer dateOfBirth) {
+    public Employee(Integer id, String name, String email, Date dateOfBirth) {
         super(id);
         this.name = name;
         this.email = email;
         this.dateOfBirth = dateOfBirth;
     }
 
-    public Employee(String name, String email, Integer dateOfBirth) {
+    public Employee(String name, String email, Date dateOfBirth) {
         this.name = name;
         this.email = email;
         this.dateOfBirth = dateOfBirth;
@@ -40,11 +40,11 @@ public class Employee extends AbstractEntity<Integer> {
         this.email = email;
     }
 
-    public Integer getDateOfBirth() {
+    public Date getDateOfBirth() {
         return dateOfBirth;
     }
 
-    public void setDateOfBirth(Integer dateOfBirth) {
+    public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
 }

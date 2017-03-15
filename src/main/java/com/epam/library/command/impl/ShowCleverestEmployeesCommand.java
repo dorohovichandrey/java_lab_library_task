@@ -1,6 +1,7 @@
-package com.epam.library.utilty.command.impl;
+package com.epam.library.command.impl;
 
-import com.epam.library.utilty.command.AbstractCommand;
+import com.epam.library.command.AbstractCommand;
+import com.epam.library.exception.ServiceException;
 import com.epam.library.service.ReportService;
 
 /**
@@ -8,7 +9,7 @@ import com.epam.library.service.ReportService;
  */
 public class ShowCleverestEmployeesCommand extends AbstractCommand {
 
-    public void execute() {
+    public void tryToExecute() throws ServiceException {
         ReportService reportService = new ReportService();
         reportService.showCleverestEmployees();
     }

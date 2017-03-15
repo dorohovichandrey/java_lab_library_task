@@ -1,10 +1,11 @@
 package com.epam.library;
 
-import com.epam.library.DAO.ReportDAO;
+
+import com.epam.library.DAO.IReportDAO;
+import com.epam.library.DAO.impl.ReportDAO;
 import com.epam.library.domain.bean.Report;
 import com.epam.library.domain.entity.Employee;
 import com.epam.library.service.ReportService;
-import org.junit.Assert;
 import org.junit.Test;
 
 import java.util.ArrayList;
@@ -15,8 +16,8 @@ import java.util.List;
  */
 public class ReportServiceTester {
 
-
-    ReportDAO reportDAO = new ReportDAO() {
+/*
+    IReportDAO reportDAO = new ReportDAO() {
 
         public List<Report> findEmplWhoReadMoreThanOneBook() {
             return new ArrayList<Report>(){
@@ -54,5 +55,5 @@ public class ReportServiceTester {
         ReportService reportService = new ReportService();
         reportService.setReportDAO(reportDAO);
         reportService.showNotSoCleverEmployees();
-    }
+    }*/
 }

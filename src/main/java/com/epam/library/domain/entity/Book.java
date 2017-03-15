@@ -1,6 +1,6 @@
 package com.epam.library.domain.entity;
 
-import com.epam.library.domain.entity.AbstractEntity;
+import java.util.Date;
 
 /**
  * Created by User on 14.03.2017.
@@ -10,21 +10,24 @@ public class Book extends AbstractEntity<Integer> {
     private String title;
     private String author;
     private String brief;
-    private Integer dateOfPublishing;
+    private Date publishYear;
 
-    public Book(Integer id, String title, String author, String brief, Integer dateOfPublishing) {
+    public Book() {
+    }
+
+    public Book(Integer id, String title, String author, String brief, Date publishYear) {
         super(id);
         this.title = title;
         this.author = author;
         this.brief = brief;
-        this.dateOfPublishing = dateOfPublishing;
+        this.publishYear = publishYear;
     }
 
-    public Book(String title, String author, String brief, Integer dateOfPublishing) {
+    public Book(String title, String author, String brief, Date publishYear) {
         this.title = title;
         this.author = author;
         this.brief = brief;
-        this.dateOfPublishing = dateOfPublishing;
+        this.publishYear = publishYear;
     }
 
     public String getTitle() {
@@ -51,11 +54,11 @@ public class Book extends AbstractEntity<Integer> {
         this.brief = brief;
     }
 
-    public Integer getDateOfPublishing() {
-        return dateOfPublishing;
+    public Date getPublishYear() {
+        return publishYear;
     }
 
-    public void setDateOfPublishing(Integer dateOfPublishing) {
-        this.dateOfPublishing = dateOfPublishing;
+    public void setPublishYear(Date publishYear) {
+        this.publishYear = publishYear;
     }
 }

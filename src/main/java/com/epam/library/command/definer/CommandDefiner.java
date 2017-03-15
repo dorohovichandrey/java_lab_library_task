@@ -1,6 +1,6 @@
-package com.epam.library.utilty.command.definer;
+package com.epam.library.command.definer;
 
-import com.epam.library.utilty.command.AbstractCommand;
+import com.epam.library.command.AbstractCommand;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 

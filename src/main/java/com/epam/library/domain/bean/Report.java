@@ -1,6 +1,5 @@
 package com.epam.library.domain.bean;
 
-import com.epam.library.domain.entity.Book;
 import com.epam.library.domain.entity.Employee;
 
 /**
@@ -9,11 +8,14 @@ import com.epam.library.domain.entity.Employee;
 public class Report {
 
     Employee employee;
-    Integer numberOfBooks;
+    Integer amountOfBooks;
 
-    public Report(Employee employee, Integer numberOfBooks) {
+    public Report() {
+    }
+
+    public Report(Employee employee, Integer amountOfBooks) {
         this.employee = employee;
-        this.numberOfBooks = numberOfBooks;
+        this.amountOfBooks = amountOfBooks;
     }
 
     public Employee getEmployee() {
@@ -24,11 +26,11 @@ public class Report {
         this.employee = employee;
     }
 
-    public Integer getNumberOfBooks() {
-        return numberOfBooks;
+    public Integer getAmountOfBooks() {
+        return amountOfBooks;
     }
 
-    public void setNumberOfBooks(Integer numberOfBooks) {
-        this.numberOfBooks = numberOfBooks;
+    public void setAmountOfBooks(Integer amountOfBooks) {
+        this.amountOfBooks = amountOfBooks;
     }
 }

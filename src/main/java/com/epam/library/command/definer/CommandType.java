@@ -1,9 +1,9 @@
-package com.epam.library.utilty.command.definer;
+package com.epam.library.command.definer;
 
 
-import com.epam.library.utilty.command.AbstractCommand;
-import com.epam.library.utilty.command.impl.ShowCleverestEmployeesCommand;
-import com.epam.library.utilty.command.impl.ShowNotSoCleverEmployeesCommand;
+import com.epam.library.command.AbstractCommand;
+import com.epam.library.command.impl.ShowCleverestEmployeesCommand;
+import com.epam.library.command.impl.ShowNotSoCleverEmployeesCommand;
 
 /**
  * Created by User on 14.03.2017.
