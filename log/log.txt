@@ -72,3 +72,13 @@ Caused by: java.sql.SQLException: Can not issue executeUpdate() or executeLargeU
 	at com.epam.library.command.impl.ShowCleverestEmployeesCommand.tryToExecute(ShowCleverestEmployeesCommand.java:14) ~[classes/:?]
 	at com.epam.library.command.AbstractCommand.execute(AbstractCommand.java:13) ~[classes/:?]
 	... 8 more
+14:02:03.937 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+14:02:24.386 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: not_so_clever_empl
+14:06:08.206 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+14:17:08.580 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+14:20:34.677 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+14:20:43.040 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+14:28:35.667 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: st_empl
+14:28:35.672 [main] ERROR com.epam.library.controller.Controller service - java.lang.IllegalArgumentException: No enum constant com.epam.library.command.definer.CommandType.ST_EMPL
+14:28:44.163 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: cleverest_empl
+14:28:52.446 [main] INFO  com.epam.library.command.definer.CommandDefiner define - Command: not_so_clever_empl

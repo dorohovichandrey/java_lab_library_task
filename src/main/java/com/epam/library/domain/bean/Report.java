@@ -11,6 +11,7 @@ public class Report {
     Integer amountOfBooks;
 
     public Report() {
+        employee = new Employee();
     }
 
     public Report(Employee employee, Integer amountOfBooks) {

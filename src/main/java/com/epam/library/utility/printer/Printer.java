@@ -23,7 +23,7 @@ public class Printer {
     }
 
     public void println(String msg){
-        System.out.println(msg);
+        printStream.println(msg);
     }
 
 

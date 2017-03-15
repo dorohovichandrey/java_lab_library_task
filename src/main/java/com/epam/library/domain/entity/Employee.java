@@ -11,6 +11,7 @@ public class Employee extends AbstractEntity<Integer> {
     private String email;
     private Date dateOfBirth;
 
+    public Employee(){}
     public Employee(Integer id, String name, String email, Date dateOfBirth) {
         super(id);
         this.name = name;

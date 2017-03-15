@@ -2,55 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49a8cbd3-22b5-42c5-b064-30413dde3712" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__mysql_mysql_connector_java_5_1_39.xml" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/RenameBookByTitleCommand.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/exception/CommandException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/exception/DAOException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/exception/ServiceException.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/service/BookService.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/utility/inputscanner/InputScanner.java" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/DAO/ReportDAO.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/DAO/ReportDAOImpl.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/DAO/ReportDAO.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/DAO/ReportDAOImpl$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/DAO/ReportDAOImpl$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/DAO/ReportDAOImpl.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/Main.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/command/AbstractCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/command/definer/CommandDefiner.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/command/definer/CommandType.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/command/impl/ShowCleverestEmployeesCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/command/impl/ShowNotSoCleverEmployeesCommand.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/utilty/printer/Printer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/library/ReportServiceTester$1$1.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/library/ReportServiceTester$1$2.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/library/ReportServiceTester$1.class" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/controller/Controller.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/controller/Controller.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/controller/Runner.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/controller/Runner.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/domain/bean/Report.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/domain/bean/Report.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/AbstractEntity.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/AbstractEntity.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/Book.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/Book.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/Employee.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/Employee.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/service/ReportService.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/service/ReportService.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/com/epam/library/ReportServiceTester.class" afterPath="$PROJECT_DIR$/target/test-classes/com/epam/library/ReportServiceTester.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/library.iml" afterPath="$PROJECT_DIR$/library.iml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log.txt" afterPath="$PROJECT_DIR$/log/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/controller/Controller.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/controller/Controller.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Book.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/epam/library/ReportServiceTester.java" afterPath="$PROJECT_DIR$/src/test/java/com/epam/library/ReportServiceTester.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utilty/command/AbstractCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/command/AbstractCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utilty/command/definer/CommandDefiner.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/command/definer/CommandDefiner.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utilty/command/definer/CommandType.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/command/definer/CommandType.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utilty/command/impl/ShowCleverestEmployeesCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowCleverestEmployeesCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utilty/command/impl/ShowNotSoCleverEmployeesCommand.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowNotSoCleverEmployeesCommand.java" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utilty/printer/Printer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -67,20 +24,26 @@
   <component name="CreatePatchCommitExecutor">
     <option name="PATCH_PATH" value="" />
   </component>
+  <component name="DatabaseView">
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_TABLE_DETAILS" value="true" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+  </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FavoritesManager">
     <favorites_list name="library" />
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="RenameBookByTitleCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/RenameBookByTitleCommand.java">
+      <file leaf-file-name="ShowCleverestEmployeesCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowCleverestEmployeesCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="187">
+              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -88,54 +51,69 @@
       <file leaf-file-name="ReportService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-238">
-              <caret line="61" column="83" selection-start-line="61" selection-start-column="83" selection-end-line="61" selection-end-column="83" />
+            <state relative-caret-position="119">
+              <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="log.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/log/log.txt">
+      <file leaf-file-name="AbstractCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/AbstractCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="317">
-              <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportDAO.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="245">
-              <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
+            <state relative-caret-position="204">
+              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#1266#1274#0" expanded="true" />
-                <element signature="e#2127#2135#0" expanded="true" />
-                <marker date="1489565550787" expanded="true" signature="496:750" ph="SELECT emplo... employee" />
-                <marker date="1489565550787" expanded="true" signature="814:1122" ph="SELECT emplo... employee" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
+      <file leaf-file-name="ShowNotSoCleverEmployeesCommand.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowNotSoCleverEmployeesCommand.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="47" column="36" selection-start-line="47" selection-start-column="36" selection-end-line="47" selection-end-column="36" />
+            <state relative-caret-position="153">
+              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Controller.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/controller/Controller.java">
+      <file leaf-file-name="ReportDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="136">
-              <caret line="54" column="61" selection-start-line="54" selection-start-column="61" selection-end-line="54" selection-end-column="61" />
+            <state relative-caret-position="205">
+              <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#1266#1274#0" expanded="true" />
+                <element signature="e#2129#2137#0" expanded="true" />
+                <marker date="1489575698245" expanded="true" signature="496:750" ph="SELECT emplo... employee" />
+                <marker date="1489575698245" expanded="true" signature="814:1122" ph="SELECT emplo... employee" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Report.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+              <folding>
+                <element signature="e#224#225#0" expanded="true" />
+                <element signature="e#265#266#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="71">
+              <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
               <folding />
             </state>
           </provider>
@@ -151,43 +129,27 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="BookDAO.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/BookDAO.java">
+      <file leaf-file-name="console.sql" pinned="false" current-in-tab="false">
+        <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/61831807-2fd8-466f-b4a7-d2e2526b8061/console.sql">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="257">
-              <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <marker date="1489567394758" expanded="true" signature="418:494" ph="INSERT INTO book... " />
-                <marker date="1489567394758" expanded="true" signature="538:567" ph="DELETE FROM " />
-                <marker date="1489567394758" expanded="true" signature="611:698" ph="UPDATE book " />
-                <marker date="1489567394758" expanded="true" signature="739:770" ph="SELECT * FRO... book" />
-                <marker date="1489567394758" expanded="true" signature="836:880" ph="UPDATE book " />
-              </folding>
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ReportServiceTester.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/library/ReportServiceTester.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-219">
-              <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+      <file leaf-file-name="com.epam.library.book" pinned="false" current-in-tab="false">
+        <entry file="dbDummy://dbtable:/d3977fd1/61831807-2fd8-466f-b4a7-d2e2526b8061/com&amp;dot;epam&amp;dot;library.book">
+          <provider editor-type-id="text-editor">
+            <state relative-caret-position="0">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/AbstractCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="204">
-              <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+          <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+            <state>
+              <filtering enabled="true" />
             </state>
           </provider>
         </entry>
@@ -233,14 +195,10 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/command/definer/CommandType.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/DAO/BookDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/utility/inputscanner/InputScanner.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/service/BookService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/exception/DAOException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/DAO/IReportDAO.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/exception/ServiceException.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/exception/CommandException.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/command/AbstractCommand.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowCleverestEmployeesCommand.java" />
@@ -252,10 +210,14 @@
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/DAOtest/ReportDAOImplTest.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/RenameBookByTitleCommand.java" />
         <option value="$PROJECT_DIR$/src/test/java/com/epam/library/ReportServiceTester.java" />
-        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/epam/library/controller/Controller.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java" />
         <option value="$PROJECT_DIR$/log/log.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" />
       </list>
     </option>
   </component>
@@ -738,6 +700,7 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="extract.method.default.visibility" value="private" />
+    <property name="com.intellij.database.dataSource.DataSourceTemplate" value="MySQL" />
   </component>
   <component name="RecentsManager">
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
@@ -1305,8 +1268,16 @@
       <option name="presentableId" value="Default" />
       <updated>1489515341673</updated>
       <workItem from="1489515353831" duration="15774000" />
-      <workItem from="1489556720719" duration="9815000" />
+      <workItem from="1489556720719" duration="12302000" />
     </task>
+    <task id="LOCAL-00001" summary="added DAO">
+      <created>1489575514787</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1489575514787</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1327,7 +1298,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="25589000" />
+    <option name="totallyTimeSpent" value="28076000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1340,7 +1311,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1349,13 +1320,13 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3267776" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.2549168" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -1379,6 +1350,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="added DAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="added DAO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1484,6 +1459,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="16" selection-start-line="9" selection-start-column="16" selection-end-line="9" selection-end-column="16" />
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1492,12 +1468,12 @@
         <state relative-caret-position="272">
           <caret line="16" column="18" selection-start-line="16" selection-start-column="18" selection-end-line="16" selection-end-column="18" />
           <folding>
-            <element signature="e#177#178#0" expanded="true" />
-            <element signature="e#205#206#0" expanded="true" />
-            <element signature="e#266#267#0" expanded="true" />
-            <element signature="e#291#292#0" expanded="true" />
-            <element signature="e#322#323#0" expanded="true" />
-            <element signature="e#350#351#0" expanded="true" />
+            <element signature="e#177#178#0" expanded="false" />
+            <element signature="e#205#206#0" expanded="false" />
+            <element signature="e#266#267#0" expanded="false" />
+            <element signature="e#291#292#0" expanded="false" />
+            <element signature="e#322#323#0" expanded="false" />
+            <element signature="e#350#351#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1540,19 +1516,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="23" selection-start-line="24" selection-start-column="23" selection-end-line="24" selection-end-column="23" />
-          <folding>
-            <element signature="e#448#449#0" expanded="false" />
-            <element signature="e#493#494#0" expanded="false" />
-            <element signature="e#531#532#0" expanded="false" />
-            <element signature="e#570#571#0" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/exception/DAOException.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
@@ -1566,17 +1529,6 @@
         <state relative-caret-position="119">
           <caret line="7" column="1" selection-start-line="7" selection-start-column="1" selection-end-line="7" selection-end-column="1" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-163">
-          <caret line="11" column="23" selection-start-line="11" selection-start-column="23" selection-end-line="11" selection-end-column="23" />
-          <folding>
-            <element signature="e#641#642#0" expanded="true" />
-            <element signature="e#668#669#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1603,14 +1555,6 @@
           <folding>
             <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-51">
-          <caret line="10" column="25" selection-start-line="10" selection-start-column="25" selection-end-line="10" selection-end-column="25" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1652,30 +1596,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/definer/CommandType.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowNotSoCleverEmployeesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowCleverestEmployeesCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/controller/Runner.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="85">
@@ -1710,41 +1630,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/RenameBookByTitleCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/epam/library/ReportServiceTester.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-219">
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/AbstractCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="204">
-          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-238">
-          <caret line="61" column="83" selection-start-line="61" selection-start-column="83" selection-end-line="61" selection-end-column="83" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1760,14 +1652,6 @@
             <marker date="1489567394758" expanded="true" signature="739:770" ph="SELECT * FRO... book" />
             <marker date="1489567394758" expanded="true" signature="836:880" ph="UPDATE book " />
           </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/ConnectionManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1789,23 +1673,134 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/log/log.txt">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="73" column="0" selection-start-line="73" selection-start-column="0" selection-end-line="73" selection-end-column="0" />
+        <state relative-caret-position="277">
+          <caret line="75" column="0" selection-start-line="75" selection-start-column="0" selection-end-line="75" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/definer/CommandType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="170">
+          <caret line="12" column="62" selection-start-line="12" selection-start-column="62" selection-end-line="12" selection-end-column="62" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/RenameBookByTitleCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="0" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="223">
+          <caret line="25" column="19" selection-start-line="25" selection-start-column="19" selection-end-line="25" selection-end-column="19" />
+          <folding>
+            <element signature="e#531#532#0" expanded="true" />
+            <element signature="e#571#572#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowNotSoCleverEmployeesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowCleverestEmployeesCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/AbstractCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="15" column="9" selection-start-line="15" selection-start-column="9" selection-end-line="15" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/ConnectionManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="15" column="40" selection-start-line="15" selection-start-column="40" selection-end-line="15" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$APPLICATION_CONFIG_DIR$/consoles/db/61831807-2fd8-466f-b4a7-d2e2526b8061/console.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="dbDummy://dbtable:/d3977fd1/61831807-2fd8-466f-b4a7-d2e2526b8061/com&amp;dot;epam&amp;dot;library.book">
+      <provider editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+      <provider selected="true" editor-type-id="com.intellij.database.editor.DatabaseTableFileEditorProvider">
+        <state>
+          <filtering enabled="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="41" column="0" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="245">
-          <caret line="27" column="88" selection-start-line="27" selection-start-column="88" selection-end-line="27" selection-end-column="88" />
+        <state relative-caret-position="205">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
             <element signature="e#1266#1274#0" expanded="true" />
-            <element signature="e#2127#2135#0" expanded="true" />
-            <marker date="1489565550787" expanded="true" signature="496:750" ph="SELECT emplo... employee" />
-            <marker date="1489565550787" expanded="true" signature="814:1122" ph="SELECT emplo... employee" />
+            <element signature="e#2129#2137#0" expanded="true" />
+            <marker date="1489575698245" expanded="true" signature="496:750" ph="SELECT emplo... employee" />
+            <marker date="1489575698245" expanded="true" signature="814:1122" ph="SELECT emplo... employee" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="13" column="34" selection-start-line="13" selection-start-column="34" selection-end-line="13" selection-end-column="34" />
+          <folding>
+            <element signature="e#224#225#0" expanded="true" />
+            <element signature="e#265#266#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="71">
+          <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+          <folding />
         </state>
       </provider>
     </entry>
