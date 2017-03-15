@@ -2,12 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="49a8cbd3-22b5-42c5-b064-30413dde3712" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/service/ReportService.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/service/ReportService.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/domain/bean/Report.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/domain/bean/Report.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/Employee.class" afterPath="$PROJECT_DIR$/target/classes/com/epam/library/domain/entity/Employee.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/log/log.txt" afterPath="$PROJECT_DIR$/log/log.txt" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/utility/printer/Printer.java" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -38,16 +35,6 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="ShowCleverestEmployeesCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowCleverestEmployeesCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="13" column="35" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
       <file leaf-file-name="ReportService.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/service/ReportService.java">
           <provider selected="true" editor-type-id="text-editor">
@@ -70,20 +57,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ShowNotSoCleverEmployeesCommand.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/command/impl/ShowNotSoCleverEmployeesCommand.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="11" column="54" selection-start-line="11" selection-start-column="54" selection-end-line="11" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReportDAO.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="ReportDAO.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="205">
+            <state relative-caret-position="-17">
               <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
@@ -109,11 +86,38 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="Employee.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="71">
+            <state relative-caret-position="205">
               <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="BookDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/BookDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="257">
+              <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <marker date="1489567394758" expanded="true" signature="418:494" ph="INSERT INTO book... " />
+                <marker date="1489567394758" expanded="true" signature="538:567" ph="DELETE FROM " />
+                <marker date="1489567394758" expanded="true" signature="611:698" ph="UPDATE book " />
+                <marker date="1489567394758" expanded="true" signature="739:770" ph="SELECT * FRO... book" />
+                <marker date="1489567394758" expanded="true" signature="836:880" ph="UPDATE book " />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="EmployeeDAO.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/EmployeeDAO.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="68">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
               <folding />
             </state>
           </provider>
@@ -1268,7 +1272,7 @@
       <option name="presentableId" value="Default" />
       <updated>1489515341673</updated>
       <workItem from="1489515353831" duration="15774000" />
-      <workItem from="1489556720719" duration="12302000" />
+      <workItem from="1489556720719" duration="12795000" />
     </task>
     <task id="LOCAL-00001" summary="added DAO">
       <created>1489575514787</created>
@@ -1277,7 +1281,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489575514787</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="fixed bug in  DAO">
+      <created>1489578471300</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1489578471300</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1298,7 +1309,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28076000" />
+    <option name="totallyTimeSpent" value="28569000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1311,7 +1322,7 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -1320,7 +1331,7 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32843137" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -1353,7 +1364,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="added DAO" />
+    <MESSAGE value="fixed bug in  DAO" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed bug in  DAO" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1532,14 +1544,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/EmployeeDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/IEmployeeDAO.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="34">
@@ -1636,21 +1640,6 @@
           <caret line="18" column="2" selection-start-line="18" selection-start-column="2" selection-end-line="18" selection-end-column="2" />
           <folding>
             <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/BookDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <marker date="1489567394758" expanded="true" signature="418:494" ph="INSERT INTO book... " />
-            <marker date="1489567394758" expanded="true" signature="538:567" ph="DELETE FROM " />
-            <marker date="1489567394758" expanded="true" signature="611:698" ph="UPDATE book " />
-            <marker date="1489567394758" expanded="true" signature="739:770" ph="SELECT * FRO... book" />
-            <marker date="1489567394758" expanded="true" signature="836:880" ph="UPDATE book " />
           </folding>
         </state>
       </provider>
@@ -1771,20 +1760,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="205">
-          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1266#1274#0" expanded="true" />
-            <element signature="e#2129#2137#0" expanded="true" />
-            <marker date="1489575698245" expanded="true" signature="496:750" ph="SELECT emplo... employee" />
-            <marker date="1489575698245" expanded="true" signature="814:1122" ph="SELECT emplo... employee" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="68">
@@ -1798,9 +1773,46 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="71">
+        <state relative-caret-position="205">
           <caret line="13" column="22" selection-start-line="13" selection-start-column="22" selection-end-line="13" selection-end-column="22" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/BookDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="257">
+          <caret line="95" column="32" selection-start-line="95" selection-start-column="32" selection-end-line="95" selection-end-column="32" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <marker date="1489567394758" expanded="true" signature="418:494" ph="INSERT INTO book... " />
+            <marker date="1489567394758" expanded="true" signature="538:567" ph="DELETE FROM " />
+            <marker date="1489567394758" expanded="true" signature="611:698" ph="UPDATE book " />
+            <marker date="1489567394758" expanded="true" signature="739:770" ph="SELECT * FRO... book" />
+            <marker date="1489567394758" expanded="true" signature="836:880" ph="UPDATE book " />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/EmployeeDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/DAO/impl/ReportDAO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="74" column="0" selection-start-line="74" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1266#1274#0" expanded="true" />
+            <element signature="e#2129#2137#0" expanded="true" />
+            <marker date="1489575698245" expanded="true" signature="496:750" ph="SELECT emplo... employee" />
+            <marker date="1489575698245" expanded="true" signature="814:1122" ph="SELECT emplo... employee" />
+          </folding>
         </state>
       </provider>
     </entry>
