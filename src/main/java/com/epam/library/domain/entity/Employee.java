@@ -48,4 +48,27 @@ public class Employee extends AbstractEntity<Integer> {
     public void setDateOfBirth(Date dateOfBirth) {
         this.dateOfBirth = dateOfBirth;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+
+        Employee employee = (Employee) o;
+
+        if (!name.equals(employee.name)) return false;
+        if (!email.equals(employee.email)) return false;
+        return dateOfBirth.equals(employee.dateOfBirth);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + name.hashCode();
+        result = 31 * result + email.hashCode();
+        result = 31 * result + dateOfBirth.hashCode();
+        return result;
+    }
 }

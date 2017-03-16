@@ -61,4 +61,29 @@ public class Book extends AbstractEntity<Integer> {
     public void setPublishYear(Date publishYear) {
         this.publishYear = publishYear;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+        if (!super.equals(o)) return false;
+
+        Book book = (Book) o;
+
+        if (!title.equals(book.title)) return false;
+        if (!author.equals(book.author)) return false;
+        if (!brief.equals(book.brief)) return false;
+        return publishYear.equals(book.publishYear);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = super.hashCode();
+        result = 31 * result + title.hashCode();
+        result = 31 * result + author.hashCode();
+        result = 31 * result + brief.hashCode();
+        result = 31 * result + publishYear.hashCode();
+        return result;
+    }
 }

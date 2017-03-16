@@ -34,4 +34,23 @@ public class Report {
     public void setAmountOfBooks(Integer amountOfBooks) {
         this.amountOfBooks = amountOfBooks;
     }
+
+    @Override
+    public boolean equals(Object o) {
+        if (this == o) return true;
+        if (o == null || getClass() != o.getClass()) return false;
+
+        Report report = (Report) o;
+
+        if (!employee.equals(report.employee)) return false;
+        return amountOfBooks.equals(report.amountOfBooks);
+
+    }
+
+    @Override
+    public int hashCode() {
+        int result = employee.hashCode();
+        result = 31 * result + amountOfBooks.hashCode();
+        return result;
+    }
 }
