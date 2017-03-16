@@ -1,12 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="49a8cbd3-22b5-42c5-b064-30413dde3712" name="Default" comment="">
+    <list default="true" id="49a8cbd3-22b5-42c5-b064-30413dde3712" name="Default" comment="added equals and hashCode">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/bean/Report.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/AbstractEntity.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/AbstractEntity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Book.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Book.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" afterPath="$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java" />
     </list>
     <ignored path="library.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -108,7 +104,7 @@
       <file leaf-file-name="Employee.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="82">
+            <state relative-caret-position="680">
               <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
               <folding />
             </state>
@@ -1283,7 +1279,7 @@
       <updated>1489515341673</updated>
       <workItem from="1489515353831" duration="15774000" />
       <workItem from="1489556720719" duration="13416000" />
-      <workItem from="1489652755759" duration="491000" />
+      <workItem from="1489652755759" duration="846000" />
     </task>
     <task id="LOCAL-00001" summary="added DAO">
       <created>1489575514787</created>
@@ -1306,7 +1302,14 @@
       <option name="project" value="LOCAL" />
       <updated>1489578532847</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="added equals and hashCode">
+      <created>1489653319411</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1489653319411</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -1327,7 +1330,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="29681000" />
+    <option name="totallyTimeSpent" value="30036000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -1383,7 +1386,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="added DAO" />
     <MESSAGE value="fixed bug in  DAO" />
-    <option name="LAST_COMMIT_MESSAGE" value="fixed bug in  DAO" />
+    <MESSAGE value="added equals and hashCode" />
+    <option name="LAST_COMMIT_MESSAGE" value="added equals and hashCode" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1439,9 +1443,7 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="204">
           <caret line="12" column="0" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,7 +1509,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="544">
           <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
-          <folding />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1564,6 +1568,9 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="187">
           <caret line="11" column="28" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1801,7 +1808,7 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/epam/library/domain/entity/Employee.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="82">
+        <state relative-caret-position="680">
           <caret line="52" column="37" selection-start-line="52" selection-start-column="37" selection-end-line="52" selection-end-column="37" />
           <folding />
         </state>
